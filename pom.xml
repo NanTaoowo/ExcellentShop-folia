@@ -12,11 +12,6 @@
         <module>Core</module>
         <module>api</module>
         <module>integration-excellent-claims</module>
-        <module>integration-grief-defender</module>
-        <module>integration-grief-prevention</module>
-        <module>integration-husk-claims</module>
-        <module>integration-kingdoms</module>
-        <module>integration-lands</module>
         <module>integration-simple-claim-system</module>
         <module>integration-world-guard</module>
         <module>integration-advanced-region-market</module>
@@ -47,18 +42,6 @@
             <id>nightexpress-releases</id>
             <url>https://repo.nightexpressdev.com/releases</url>
         </repository>
-
-         <repository>
-           <id>sonatype-oss-snapshots</id>
-           <name>Sonatype OSS Snapshots</name>
-           <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-           <releases>
-             <enabled>false</enabled>
-           </releases>
-           <snapshots>
-             <enabled>true</enabled>
-           </snapshots>
-         </repository>
     </repositories>
 
     <dependencies>
