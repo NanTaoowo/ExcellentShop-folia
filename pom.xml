@@ -7,7 +7,7 @@
     <groupId>su.nightexpress.excellentshop</groupId>
     <artifactId>ExcellentShop-spigot</artifactId>
     <packaging>pom</packaging>
-    <version>4.22.0</version>
+    <version>4.22.1</version>
     <modules>
         <module>Core</module>
         <module>api</module>
@@ -56,14 +56,6 @@
             <groupId>su.nightexpress.nightcore</groupId>
             <artifactId>main</artifactId>
             <version>2.9.4</version>
-        </dependency>
-
-        <dependency>
-          <groupId>com.comphenix.protocol</groupId>
-          <artifactId>ProtocolLib</artifactId>
-          <version>5.3.0</version>
-          <scope>system</scope>
-          <systemPath>${project.basedir}/ProtocolLib-5.3.0.jar</systemPath>
         </dependency>
     </dependencies>
 
